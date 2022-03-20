@@ -1,0 +1,60 @@
+body{
+    max-width: 1440px;
+    background-color: #d3c9c9;
+    /* display: flex; */
+}
+header{
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000;
+    font-size: 18px;
+}
+.logo_nav{
+    width: 60px;
+    height: 60px;
+    background-color: antiquewhite;
+    
+}
+.photo > img{
+    border-radius: 120px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.nav_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.a_nav{
+    text-decoration: none;
+    padding-right: 15px;
+    color: #000;
+}
+.github{
+    width: 45px;
+    height: 35px;
+    background-color: none;
+
+}
+.list_li{
+    display: flex;
+    justify-content: end;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+
+}
+#contacts{
+    background-color: #d3c9c9;
+}
+#about{
+    background-color: #d3c9c9;
+}
+.nemu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
